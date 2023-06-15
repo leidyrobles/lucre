@@ -1,0 +1,61 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: linear-gradient(135deg,#00b7d4, #505488, #2f3f80, #161569, #5a4894, #a950a1, #ef7cae);
+    background-size: 500%;
+    animation: fanimado 10s infinite;
+    color: green;
+    text-decoration: double;
+	font-family: 'Roboto', sans-serif;
+}
+
+.contenedor {
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 0;
+
+}
+
+
+.card .textos {
+	height: 100%;
+}
+
+.card {
+	border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 70px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+
+	
+}
+
+
+.banner {
+	border-radius: 10px;
+	text-align: center;
+	padding: 300px;
+	background-size: cover;
+	background-position: center center;
+}
+
+@keyframes fanimado{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
